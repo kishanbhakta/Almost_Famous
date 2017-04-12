@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/kishanbhakta/Almost_Famous"
   },
   "contributors": [
     "Kishan Bhakta",
@@ -16,7 +16,7 @@
   ],
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/kishanbhakta/Almost_Famous"
   },
   "homepage": "",
   "devDependencies": {

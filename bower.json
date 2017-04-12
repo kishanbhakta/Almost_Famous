@@ -1,10 +1,10 @@
 {
-  "name": "Template",
+  "name": "Almost Famous",
   "version": "1.0.0",
-  "homepage": "https://github.com/tiy-atl-js-q2-2015/Template",
+  "homepage": "",
   "authors": [
-    "JD Isaacks",
-    "Tim Whitacre"
+    "Kishan Bhakta",
+    "Mike Zevitas"
   ],
   "description": "A template for building new apps",
   "license": "ISC",
@@ -23,7 +23,9 @@
     "angular": "^1.6.4",
     "angular-ui-router": "^0.4.2",
     "bootstrap": "^3.3.7",
-    "font-awesome": "fontawesome#^4.7.0"
+    "font-awesome": "fontawesome#^4.7.0",
+    "firebase": "^3.7.6",
+    "angularfire": "^2.3.0"
   },
   "devDependencies": {
     "mocha": "~2.2.5",
