@@ -10,7 +10,6 @@
       CONFIG:{
         apiKey: 'AIzaSyDDL0KirPNmSkXDhmLyHm0CqvCaRZoA5SE'
       }
-      // firebase.initializeApp(config);
     });
     app.config(['$stateProvider', '$urlRouterProvider',
     function ($stateProvider, $urlRouterProvider) {
