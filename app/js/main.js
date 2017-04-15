@@ -21,26 +21,26 @@
 
         .state('home', {
           url: '/',
-          templateUrl:'js/routes/home/home_tpl.html',
+          templateUrl:'views/home_tpl.html',
           controller: 'HomeCtrl'
         })
         .state('about', {
           url: '/about',
-          templateUrl:'js/routes/about/about_tpl.html',
+          templateUrl:'views/about_tpl.html',
           controller: 'AboutCtrl'
         })
         .state('events', {
           url: '/events',
-          templateUrl:'js/routes/events/events_tpl.html',
+          templateUrl:'views/events_tpl.html',
           controller: 'EventsCtrl'
         })
         .state('booking', {
           url: '/booking',
-          templateUrl:'js/routes/booking/booking_tpl.html',
+          templateUrl:'views/booking_tpl.html',
           controller: 'BookingCtrl'
         });
     }]);
 
-    firebase.initializeApp(config);
+    // firebase.initializeApp(config);
 
 }());
