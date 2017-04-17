@@ -13,7 +13,7 @@
     });
     app.config(['$stateProvider', '$urlRouterProvider',
     function ($stateProvider, $urlRouterProvider) {
-      // $urlRouterProvider.otherwise('/');
+      $urlRouterProvider.otherwise('/');
       $stateProvider
       //====================================
       // Home About Events and Booking Views
