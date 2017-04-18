@@ -1,0 +1,4 @@
+AuthName "Almost Famous Dev"
+AuthUserFile /public_html/dev.almostfamous.live/.htpasswd
+AuthType Basic
+require valid-user
