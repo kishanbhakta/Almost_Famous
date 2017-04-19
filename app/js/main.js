@@ -1,16 +1,19 @@
 (function() {
   'use strict';
+
   var app = angular
     .module('almostFamous', [
       'ui.router',
       'firebase'
     ]);
+
     app.constant('SERVER', {
-      URL: 'https://almost-famous-6a869.firebaseio.com/',
+      databaseURL: 'https://almost-famous-6a869.firebaseio.com/',
       CONFIG:{
         apiKey: 'AIzaSyDDL0KirPNmSkXDhmLyHm0CqvCaRZoA5SE'
       }
     });
+
     app.config(['$stateProvider', '$urlRouterProvider',
     function ($stateProvider, $urlRouterProvider) {
       $urlRouterProvider.otherwise('/');
@@ -41,6 +44,6 @@
         });
     }]);
 
-    // firebase.initializeApp(config);
+    firebase.initializeApp(app.constant);
 
 }());
