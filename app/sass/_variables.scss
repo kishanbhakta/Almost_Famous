@@ -1,7 +1,26 @@
+//fonts
+$blanch : 'blanch_cond';
+$lato : 'lato_reg';
+$playfair : 'playfair_reg';
+
 //font-sizes
-//padding
-//font-weight
-//font-colors
+$font-size-xl: "30px";
+$font-size: "20px";
+$font-size-mobile: "16px";
+
+//mobile
+$sm-tablet: "(min-width: 600px) and (max-width: 800px)";
+$mobile-either: "(max-width: 767px)";
+$tablet: "(min-width: 768px) and (max-width: 1024px)";
+$desktop: "(min-width: 1025px)";
+$desktop-xl: "(min-width: 1900px)";
+
+//colors
+$white: "rgba(255, 255, 255, 1)";
+$black: "rgba(25, 25, 25, 1)";
+$green: "rgba(0,255,128,1)";
+$green-overlay: "rgba(0,255,128,0.7)";
+
 //margins
 //mixins for buttons and input fields(use bootstrap)
-//font-awesom for social icons
+//font-awesome for social media (CDN in head)

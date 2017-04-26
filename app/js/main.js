@@ -8,11 +8,16 @@
     ]);
 
     app.constant('SERVER', {
-      databaseURL: 'https://almost-famous-6a869.firebaseio.com/',
+      URL: "https://api.mlab.com/api/1/databases/almostfamousatl/collections",
       CONFIG:{
-        apiKey: 'AIzaSyDDL0KirPNmSkXDhmLyHm0CqvCaRZoA5SE'
+        HEADERS: {
+          'apiKey': 'ZV5Qc-g5yNbRuU15JzBfdYGGEbrpMS_c',
+          'Content-Type': 'application/json'
+        }
       }
     });
+
+    // var database = firebase.database();
 
     app.config(['$stateProvider', '$urlRouterProvider',
     function ($stateProvider, $urlRouterProvider) {
@@ -24,13 +29,13 @@
 
         .state('home', {
           url: '/',
-          templateUrl:'views/home_tpl.html',
-          controller: 'HomeCtrl'
+          templateUrl:'views/home_tpl.html' //make sure to add comma when activating controller
+          // controller: 'HomeCtrl'
         })
         .state('about', {
           url: '/about',
-          templateUrl:'views/about_tpl.html',
-          controller: 'AboutCtrl'
+          templateUrl:'views/about_tpl.html'
+          // controller: 'AboutCtrl'
         })
         .state('events', {
           url: '/events',
@@ -39,11 +44,10 @@
         })
         .state('booking', {
           url: '/booking',
-          templateUrl:'views/booking_tpl.html',
-          controller: 'BookingCtrl'
+          templateUrl:'views/booking_tpl.html'
+          // controller: 'BookingCtrl'
         });
     }]);
 
-    firebase.initializeApp(app.constant);
 
 }());
