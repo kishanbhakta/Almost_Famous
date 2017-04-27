@@ -1,3 +1,9 @@
 <div ng-controller="EventsCtrl">
-  <h3>Events Page</h3>
+  <div ng-repeat="event in events">
+    <h1>Venue: {{event.venue}}</h1>
+    <h2>{{event.startTime}}</h2>
+    <h3>{{event.eventDate}}</h3>
+    <h4>{{event.endTime}}</h4>
+    <h5>{{event.ticketLink}}</h5>
+  </div>
 </div>

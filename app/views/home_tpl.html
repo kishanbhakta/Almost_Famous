@@ -7,5 +7,9 @@
       <p><a class="btn btn-primary btn-lg" href="#" role="button">&#751;</a></p>
     </div>
   </div>
-
+  <div ng-controller="PhotosCtrl">
+    <div ng-repeat="p in photos">
+      <img ng-src="{{p.imgUrl}}" alt="">
+    </div>
+  </div>
 </div>

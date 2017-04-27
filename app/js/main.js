@@ -10,10 +10,8 @@
     app.constant('SERVER', {
       URL: "https://api.mlab.com/api/1/databases/almostfamousatl/collections",
       CONFIG:{
-        HEADERS: {
-          'apiKey': 'ZV5Qc-g5yNbRuU15JzBfdYGGEbrpMS_c',
-          'Content-Type': 'application/json'
-        }
+          apiKey:'ZV5Qc-g5yNbRuU15JzBfdYGGEbrpMS_c'
+          // 'contentType': 'application/json'
       }
     });
 

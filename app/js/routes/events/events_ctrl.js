@@ -11,7 +11,7 @@
       vm.getEvent = function (res) {
        EventsService.getEvent(res).then(function(res){
        $scope.events = res.data;
-      //  console.log(res.data);
+       console.log(res.data);
         });
       };
       vm.getEvent({res:''});
